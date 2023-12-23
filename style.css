@@ -1,0 +1,350 @@
+@font-face {
+  font-family: circularbold;
+  src: url(/Font/CircularSpotifyTxT-Bold.ttf);
+}
+@font-face {
+  font-family: circularbook;
+  src: url(/Font/CircularSpotifyTxT-Book.ttf);
+}
+@font-face {
+  font-family: circularlight;
+  src: url(/Font/CircularSpotifyTxT-Light.ttf);
+}
+@font-face {
+  font-family: circularmed;
+  src: url(/Font/CircularSpotifyTxT-Med.ttf);
+}
+
+.txtfont1 {
+  font-family: circularbold !important;
+}
+.txtfont2 {
+  font-family: circularbook !important;
+}
+.txtfont3 {
+  font-family: circularlight !important;
+}
+.txtfont4 {
+  font-family: circularmed !important;
+}
+.row {
+  --bs-gutter-x: 0rem;
+}
+body {
+  font-family: circularbook;
+}
+.bg {
+  background: #ffe7ab 0% 0% no-repeat padding-box;
+}
+.newcenter {
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.toptxt {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: circularbook;
+}
+.navbar {
+  background: #f4f5f5 0% 0% no-repeat padding-box;
+  font-weight: bold;
+  opacity: 0.69;
+  font-size: 16px;
+  color: #000000 !important;
+}
+.banner {
+  background-image: url(/Images/banner.jpg);
+  height: 430px;
+}
+.btnn {
+  font-weight: bold;
+  width: 237px;
+  height: 58px;
+  border: none;
+  background: #fcd131 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+.txtcolor {
+  color: #fbd137;
+}
+.newtxtcolor {
+  color: #fcd131;
+}
+.footerbg {
+  background: #fdf4d1 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+.Testimonial {
+  background: #fdf4d1 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+.sidetxt {
+  font-size: 16px;
+  font-weight: bold;
+}
+.ultxt {
+  font-size: 13px;
+  font-weight: bold;
+}
+.dotlinecolor {
+  color: #707070;
+}
+.testimonialbox {
+  background: #fdfeff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 15px 15px #0000000d;
+  opacity: 1;
+  width: 500px;
+  height: 400px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.boxx {
+  width: 350px;
+  height: 454px;
+  background: #f4f5f5 0% 0% no-repeat padding-box;
+  margin-right: 20px;
+  margin-top: 50px;
+  margin-bottom: 80px;
+  opacity: 1;
+  text-align: center;
+}
+.boxx:hover {
+  background: #fdf4d1 0% 0% no-repeat padding-box;
+}
+hr {
+  border: none;
+  border-top: 2px dotted #d7ae1b;
+  color: #fff;
+  background-color: transparent;
+  height: 1px;
+  width: 80%;
+}
+.border-top {
+  border-top: 2px dotted#707070 !important;
+}
+.margintopp {
+  margin-top: 90px;
+  margin-left: 40px;
+}
+ul {
+  list-style-type: none;
+}
+.smallbox {
+  padding-top: 15px;
+
+  margin-top: 40px;
+  font-size: 22px;
+  width: 200px;
+  height: 70px;
+  background-color: #fdf4d1;
+}
+.yelo {
+  color: #fbd137;
+  font-size: 16px;
+  padding-left: 20px;
+}
+.yelosub {
+  padding-left: 20px;
+  font-size: 14px;
+}
+.txtfooter {
+  font-size: 14px;
+  font-weight: bold;
+}
+.sidebarcoun {
+  font-size: 11px;
+  font-weight: bold;
+}
+.newbox {
+  padding-top: 20px !important;
+  padding: 15px;
+  margin-top: 4px;
+  width: 200px;
+  height: 220px;
+  background: #fdf4d1 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+.flagg {
+  width: 27px;
+  height: 15px;
+  padding-right: 6px;
+}
+.privatetxt {
+  margin-top: 38px;
+  font: normal normal bold 40px/56px Circular Spotify Tx T;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+.mgside {
+  padding: 15px;
+}
+.imgleft {
+  margin-right: 20px;
+}
+.arrow {
+  width: 20px;
+}
+.jayatxt {
+  font-size: 18px;
+  font-weight: bold;
+}
+.teacherstext {
+  font-size: 35px;
+}
+.teachersubtxt {
+  font-size: 16px;
+  margin-right: 50px;
+}
+.coursewe {
+  font-size: 24px;
+  font-weight: bold;
+}
+.keystagee {
+  font-size: 20px;
+  font-weight: bold;
+}
+.tutoringtxt {
+  font-weight: bold;
+  font-size: 18px;
+}
+.keysub {
+  font-size: 16px;
+}
+.circle {
+  margin-left: 10px;
+  border: #fbd137 1px;
+  font-size: 12px;
+  text-align: center;
+  background: #fdf4d1;
+  padding: 6px;
+  border-radius: 70%;
+}
+.pointer {
+  cursor: pointer;
+}
+.subtxt {
+  font-size: 13px;
+}
+.txtbtn {
+  cursor: pointer;
+  padding-top: 0.5px;
+  height: 18px;
+  font-size: 10.6px;
+  width: 122px;
+  background-color: #f4f5f5;
+  text-align: center;
+}
+.textline {
+  text-decoration: underline;
+  font-size: 13px;
+}
+.imgg {
+  width: 170px;
+  height: 180px;
+}
+.centerr {
+  margin-top: 50px;
+  margin-left: 80px;
+}
+.proudtxt {
+  font-size: 35px;
+  margin-right: 50px;
+}
+.proudtxtsub {
+  font-size: 16px;
+  margin-top: 20px;
+  margin-right: 50px;
+}
+.subfuture {
+  font-size: 14px;
+  text-align: center;
+  padding: 40px;
+  padding-top: 8px !important;
+}
+.maintxtt {
+  font-size: 17px;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 25px;
+}
+.imgcenter {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  margin-top: 80px;
+}
+.textitxt {
+  font-size: 16px;
+  padding-top: 60px;
+  font-weight: bold;
+}
+.customerstxt {
+  font-size: 36px;
+  font-weight: bold;
+}
+.readtxt {
+  font-size: 18px;
+  font-weight: bold;
+}
+.teacherimg {
+  width: 350px;
+}
+.testimonialbox {
+  font-size: 16px;
+  padding: 40px;
+  margin-left: -100px;
+}
+.dotimg {
+  height: 240px;
+}
+.container {
+  padding-left: 50px;
+}
+.navimg img {
+  width: 180px;
+  margin-left: 40px;
+  margin-right: 20px;
+}
+@media screen and (max-width: 780px) {
+  .disnone {
+    display: none;
+  }
+  .toptxt {
+    margin-top: 15px;
+  }
+  .keystagee {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .mgside {
+    padding: 0;
+    padding-top: 12px;
+  }
+  .tutoringtxt {
+    font-size: 16.5px;
+  }
+  .boxx{
+    width: 280px;
+    margin-top: 20px;
+    margin-left: 20px;
+  
+  }
+  .teacherimg{
+    width: 280px;
+  }
+  .testimonialbox{
+    margin-left: -25px;
+    height: 600px;
+  }
+  .container {
+    padding-left: 20px;
+  }
+  .centerr{
+    margin-top: 0px;
+    margin-left: 0px;
+    text-align: center;
+  }
+}
